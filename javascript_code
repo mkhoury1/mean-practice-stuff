@@ -1,0 +1,14 @@
+var myFunction = function() {
+
+};
+
+var functionThatTakesAFunction = function(paramThatIsFunction) {
+    paramThatIsFunction(); // this is called a callback
+};
+
+functionThatTakesAFunction(myFunction);
+// idea: if there is a function, execute it; otherwise; run error code
+
+/*
+ */
+
